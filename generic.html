@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Spectral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<style>
+		.carousel-container {
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px 0; /* Adjust padding as needed */
+        }
+		.cont1 {
+			display: flex;
+			align-items: center; 
+		   padding-left: 10px;
+		  }
+		  .abc{
+			position: relative; 
+			margin-left: 15px ;
+			margin-right: 15px;
+		  }
+		  .abc img {
+			height: 450px;
+			/* width:100%; */
+			transition: opacity 0.3s ease;
+			display: block;
+			}
+		   .abc::before {
+            content: attr(data-text);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            white-space: nowrap; /* Prevents text from wrapping */
+			font-size: 1.5em;
+			font-weight: bolder;
+        }
+			.abc:hover img {
+            opacity: 0.6; /* Makes the image semi-transparent */
+        }
+           .abc:hover::before {
+            opacity: 1; /* Shows the text on hover */
+        }
+		  
+			</style>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Himanshi SHarma</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									
+									<a href="index.html" ><span>Home</span></a>
+									
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<!-- <h2>Generic Page</h2> -->
+							<p>Crafting code, creating solutions, and continuously learning</p>
+						</header>
+
+						
+
+						<section class="wrapper style5">
+							<div class="inner">
+
+							<section id="skills">
+								<h2>Skills</h2>
+								<div style="clear:both;"></div>
+								<div class="all_skills">
+									<div class="skill">
+										<img src="images\html5-icon-13.jpg"/>
+										<h6>HTML</h6>
+									</div>
+									<div class="skill">
+										<img src="images\csslogo.png"/>
+										<h6>CSS</h6>
+									</div>
+									<div class="skill">
+										<img src="images\jslogo.png"/>
+										<h6>JavaScript</h6>
+									</div>
+									<div class="skill">
+										<img src="images\python-logo.png"/>
+										<h6>Python</h6>
+									</div>
+									<div class="skill">
+										<img src="images\phplogo.jpg"/>
+										<h6>Php</h6>
+									</div>
+									<div class="skill">
+										<img src="images\javalogo.png"/>
+										<h6>Java</h6>
+									</div>
+									<div class="skill">
+										<img src="images\bootlogo.png"/>
+										<h6>Bootstrap</h6>
+									</div>
+									<div class="skill">
+										<img src="images\mysqlogo.jpg"/>
+										<h6>MySQL</h6>
+									</div>
+								</div>
+							</section>
+
+								<hr/>
+
+								<h3>Education</h3>
+								<p>I am currently pursuing a Bachelor of Technology in Computer Science at Guru Nanak Dev University (GNDU), Amritsar, with a GPA of 8.69/10. My academic journey has equipped me with a strong foundation in key areas such as Operating Systems, Relational Database Management Systems, and Data Structures and Algorithms.</p>
+
+								<p>Prior to my university studies, I completed my 12th grade at The Senior Study II, Amritsar, achieving a Board exam score of 91.8% and a 94.5 percentile in the JEE Mains Exam 2021. Earlier, I graduated from Sacred Heart Senior Secondary School with an impressive 96.4% in my 10th-grade board exams.</p>
+
+								<hr />
+
+
+								<h4>Noteable Achievements</h4>
+								
+							</div>
+									<div class="carousel-container">
+									  <div class="cont1">
+										<div class = "abc" data-text = "Hockey"> <img  src="images/I2.jpg" alt="This is my image." height="600px"/> </div> 
+										<div class="abc" data-text = "Tug-OF-War"> <img  src="images/i3.jpg" alt="This is my second image." height="600px"/> </div> 
+									   <div class="abc" data-text = "Western Group Dance"> <img  src="images/i5.jpg" alt="My third image." height="600px"/> </div> 
+									   <div class="abc" data-text = "Volleyball"> <img  src="images/I1.jpg" alt="My third image." height="600px"/> </div> 
+									   <div class="abc" data-text = "Football"> <img  src="images/i4.jpg" alt="My third image." height="600px"/> </div> 
+									  </div>
+									</div>
+							
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/himanshi1-sharma1" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/hshimanshisharma" class="icon brands fa-github"><span class="label">Facebook</span></a></li>
+							
+							<li><a href="mailto:himanshisharma0512@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; 2024 Himanshi Sharma | <a href="index.html" class = "less scrolly">Home</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="move.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
